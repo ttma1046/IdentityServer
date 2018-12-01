@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularApi", "AngularApi\AngularApi.csproj", "{6127D529-2BA3-4B4F-B2E3-32F26A89C104}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuickstartIdentityServer", "QuickstartIdentityServer\QuickstartIdentityServer.csproj", "{5C0FBBED-94CE-434D-A306-0C9448326D38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{6127D529-2BA3-4B4F-B2E3-32F26A89C104}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6127D529-2BA3-4B4F-B2E3-32F26A89C104}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6127D529-2BA3-4B4F-B2E3-32F26A89C104}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C0FBBED-94CE-434D-A306-0C9448326D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C0FBBED-94CE-434D-A306-0C9448326D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C0FBBED-94CE-434D-A306-0C9448326D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C0FBBED-94CE-434D-A306-0C9448326D38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

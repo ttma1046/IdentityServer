@@ -88,13 +88,13 @@ namespace QuickstartIdentityServer
                 new Client
                 {
                     ClientId = "js",
-                    ClientName = "JavaScript Client",
+                    ClientName = "Angular Client",
                     AllowedGrantTypes = GrantTypes.Implicit,
                     AllowAccessTokensViaBrowser = true,
 
-                    RedirectUris = { "http://localhost:5003/callback.html" },
-                    PostLogoutRedirectUris = { "http://localhost:5003/index.html" },
-                    AllowedCorsOrigins = { "http://localhost:5003" },
+                    RedirectUris = { "https://localhost:5000/callback" },
+                    PostLogoutRedirectUris = { "https://localhost:5000/" },
+                    AllowedCorsOrigins = { "https://localhost:5000" },
 
                     AllowedScopes =
                     {
